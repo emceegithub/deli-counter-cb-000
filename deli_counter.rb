@@ -18,3 +18,9 @@ def take_a_number(array, string)
   return "Welcome, #{string}. You are number #{array.length} in line."
 end
 
+def now_serving(array)
+  first_person = ""
+  first_person = array.first
+  puts "Currently serving Grace."
+end
+
