@@ -9,6 +9,7 @@ def line(array)
     end
     # do nothing
   end
+  puts string
   return string
 end
 
