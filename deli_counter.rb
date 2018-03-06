@@ -2,7 +2,6 @@ def line(array)
   string = ""
   if array.length == 0
     puts "The line is currently empty."
-    return nil
   else
     string = "The line is currently: "
     array.each_with_index do |element, index|
@@ -11,7 +10,7 @@ def line(array)
     string = string[0..string.length-2]
     puts string
   end
-  return string
+  return nil
 end
 
 def take_a_number(array, string)
