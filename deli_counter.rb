@@ -10,7 +10,7 @@ def line(array)
     # do nothing
   end
   puts string
-  #return string
+  return string
 end
 
 def take_a_number(array, string)
