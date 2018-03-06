@@ -9,6 +9,7 @@ def line(array)
       string = string + (index + 1).to_s + ". #{element} "
     end
     string = string[0..string.length-2]
+    puts string
   end
   return string
 end
