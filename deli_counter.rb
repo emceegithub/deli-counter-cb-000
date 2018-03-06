@@ -20,8 +20,14 @@ def take_a_number(array, string)
 end
 
 def now_serving(array)
-  first_person = ""
-  first_person = array.first
-  puts "Currently serving Grace."
+  if array.length == 0
+    puts "There is nobody waiting to be served!"
+    return false
+  else
+    first_person = ""
+    first_person = array.first
+    puts "Currently serving Grace."
+  end
+
 end
 
