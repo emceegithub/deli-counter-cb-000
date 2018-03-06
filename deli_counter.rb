@@ -1,15 +1,15 @@
 def line(array)
   string = ""
   if array.length == 0
-    string = "The line is currently empty."
+    puts "The line is currently empty."
+    return nil
   else
     string = "The line is currently: "
     array.each_with_index do |element, index|
       string = string + (index + 1).to_s + ". #{element} "
     end
-    # do nothing
+    string = string[0..string.length-2]
   end
-  puts string
   return string
 end
 
