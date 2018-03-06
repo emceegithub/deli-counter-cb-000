@@ -16,7 +16,7 @@ end
 def take_a_number(array, string)
   array << string
   puts array.inspect
-  return "Welcome, #{string}. You are number #{array.length} in line."
+  puts "Welcome, #{string}. You are number #{array.length} in line."
 end
 
 def now_serving(array)
