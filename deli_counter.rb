@@ -1,7 +1,7 @@
 def line(array)
   string = ""
   if array.length == 0
-    return "The line is currently empty."
+    puts "The line is currently empty."
   else
     string = "The line is currently: "
     array.each_with_index do |element, index|
