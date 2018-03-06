@@ -26,7 +26,7 @@ def now_serving(array)
   else
     first_person = ""
     first_person = array.first
-    puts "Currently serving Grace."
+    puts "Currently serving #{first_person}."
   end
 
 end
