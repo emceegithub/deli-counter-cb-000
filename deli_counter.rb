@@ -5,7 +5,7 @@ def line(array)
   else
     string = "The line is currently: "
     array.each_with_index do |element, index|
-      string = string + (index + 1).to_s + ". #{element} "
+      string = string + (index + 1).to_s + ". #{element}"
     end
     # do nothing
   end
