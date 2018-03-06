@@ -25,8 +25,9 @@ def now_serving(array)
     return false
   else
     next_person = ""
-    first_person = array.first
-    puts "Currently serving #{first_person}."
+    next_person = array.first
+    puts "Currently serving #{next_person}."
+    array.shift
   end
 
 end
